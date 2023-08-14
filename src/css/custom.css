@@ -58,6 +58,10 @@
   font-size: 1.8rem;
 }
 
+.feature-link {
+  color: var(--ifm-color-emphasis-800) !important;
+}
+
 h1, .markdown h2, .markdown h3 {
   border-bottom: 1px solid;
   border-bottom-color: var(--ifm-color-emphasis-300);
