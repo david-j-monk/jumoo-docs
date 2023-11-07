@@ -16,16 +16,16 @@ import Tabs from '@theme/Tabs';
 import TabItem from '@theme/TabItem';
 
 <Tabs
-  defaultValue="pm"
+  defaultValue="core"
   values={[
-    { label: 'Package Manager', value: 'pm', },
     { label: 'Dotnet', value: 'core', },
+    { label: 'Package Reference', value: 'pm', },
   ]
 }>
 <TabItem value="pm">
 
 ```cli
-install-package Jumoo.TranslationManager 
+<PackageReference Include="Jumoo.TranslationManager" Version="12.*" />
 ```
 
 </TabItem>
@@ -37,6 +37,7 @@ dotnet add package Jumoo.TranslationManager
 
 </TabItem>
 </Tabs>
+
 
 ## Install as Package 
 On Umbraco v12 you can't install packages via the backoffice, it must be installed via NuGet.
