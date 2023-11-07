@@ -1,3 +1,6 @@
+ErrorDocument 404 /404.html 
+ErrorDocument 403 /403.html
+
 # htaccess redirects.
 <IfModule mod_rewrite.c>
 RewriteEngine On
@@ -8,3 +11,4 @@ Redirect 301 /tm/v8/msg/missing-targets/ /tm/reference/missing
 Redirect 301 /usync/reference/config/ /usync/uSync/reference/config
 Redirect 301 /usync/complete/publisher/siteseed/ /usync/complete/setup/publisher/siteseed
 </IfModule>
+
