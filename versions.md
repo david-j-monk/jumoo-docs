@@ -1,10 +1,11 @@
 
+All commands should be entered via View --> Terminal in visual studio code, on the current file. 
 
  To create a new version of the documentation you need to do the following:
 
 (1) archive the current version into a version folder
 
-Enter `npm run docusaurus docs:version 12.x` changing the version number to match the CURRENT version of the docs.
+Enter `npm run docusaurus docs:version 13.x` changing the version number to match the CURRENT version of the docs.
 
 >(1.b) if you are doing translation manager the command is different. Instead enter `npm run docusaurus docs:version:tm 12.x`.
 

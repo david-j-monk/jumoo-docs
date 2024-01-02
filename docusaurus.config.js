@@ -31,8 +31,12 @@ const config = {
           editUrl: 'https://github.com/Jumoo/jumoo-docs/edit/master',
           versions: {
             current: {
-              label: 'v12.x - Umbraco 12'
+              label: 'v13.x - Umbraco 13'
             },
+            "12.x": {
+              label: 'v12.x - Umbraco 12',
+              banner: 'unmaintained'
+             },
             "11.x": {
              label: 'v11.x - Umbraco 11',
              banner: 'unmaintained'
@@ -65,8 +69,12 @@ const config = {
         lastVersion: 'current',
         versions: {
           current: {
-            label: 'v12.x - Umbraco 12'
+            label: 'v13.x - Umbraco 13'
           },
+          "12.x": {
+            label: 'v12.x - Umbraco 12',
+            banner: 'unmaintained'
+           },
           "11.x": {
            label: 'v11.x - Umbraco 11',
            banner: 'unmaintained'
