@@ -31,7 +31,7 @@ Actions     | All,Import,Export,Report  | Turns the handler on/off for specific 
 
 Handlers can have their own settings, which can control specific behaviors based on the handler, for example Content Handlers can have `Include` and `Exclude` settings that limit exports to certain content paths.
 
-These settings take the form of an extra Add value underneath the Handler e.g.`<Add Key='[key]' Value='[value]' />
+These settings take the form of an extra Add value underneath the Handler e.g.`<Add Key='[key]' Value='[value]' />`
 
 ```xml title="/config/usync8.config"
 <Handler Alias="contentTypeHandler" Enabled="true" Actions="All">
