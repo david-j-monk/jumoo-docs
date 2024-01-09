@@ -37,10 +37,7 @@ const config = {
               label: 'v12.x - Umbraco 12',
               banner: 'unmaintained'
              },
-            "11.x": {
-             label: 'v11.x - Umbraco 11',
-             banner: 'unmaintained'
-            },
+            
             "10.x": {
               label: 'v10.x - Umbraco 10',
               banner: 'none'
@@ -75,10 +72,7 @@ const config = {
             label: 'v12.x - Umbraco 12',
             banner: 'unmaintained'
            },
-          "11.x": {
-           label: 'v11.x - Umbraco 11',
-           banner: 'unmaintained'
-          },
+          
          "10.x": {
           label: 'v10.x - Umbraco 10',
           banner: 'none'
