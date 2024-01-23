@@ -1,8 +1,8 @@
 {
-    "label" : "uSync.Complete References",
+    "label" : "Troubleshooting",
     "link": {
         "type": "generated-index",
-        "title": "uSync.Complete References",
-        "description": "How to make uSync.Complete work for you."
+        "title": "Troubleshooting",
+        "description": "Fixing issues and making it work."
     }
 }
