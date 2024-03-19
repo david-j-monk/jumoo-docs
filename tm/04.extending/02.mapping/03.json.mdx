@@ -33,16 +33,18 @@ Within the *Mappers* section of the config file, you can define this using the `
 or `<grid>` config nodes (see below for details of how the grid naming works).
 
 ```xml
-<mappers>
-    <custom>
-        <config alias="My.Custom.Property">
-            <properties>
-                <property name="Title" alias="Umbraco.Textbox" />
-                <property name="Content" alias="Umbraco.TinyMCEv3" />
-            </properties>
-        </config>
-    </custom>
-</mappers>
+<translations>
+    <mappers>
+        <custom>
+            <config alias="My.Custom.Property">
+                <properties>
+                    <property name="Title" alias="Umbraco.Textbox" />
+                    <property name="Content" alias="Umbraco.TinyMCEv3" />
+                </properties>
+            </config>
+        </custom>
+    </mappers>
+<translations>
 ```
 This config tells Translation Manager to treat all My.Custom.Property values as
 JSON and to extract the title and content values when creating and importing
@@ -61,16 +63,18 @@ the `config/translation_mapping.config`. You will need to define the config usin
 or `<grid>` config nodes (see below for details of how the grid naming works).
 
 ```xml
-<mappers>
-    <custom>
-        <config alias="My.Custom.Property">
-            <properties>
-                <property name="Title" alias="Umbraco.Textbox" />
-                <property name="Content" alias="Umbraco.TinyMCEv3" />
-            </properties>
-        </config>
-    </custom>
-</mappers>
+<translations>
+    <mappers>
+        <custom>
+            <config alias="My.Custom.Property">
+                <properties>
+                    <property name="Title" alias="Umbraco.Textbox" />
+                    <property name="Content" alias="Umbraco.TinyMCEv3" />
+                </properties>
+            </config>
+        </custom>
+    </mappers>
+<translations>
 ```
 This config tells Translation Manager to treat all My.Custom.Property values as
 JSON and to extract the title and content values when creating and importing
